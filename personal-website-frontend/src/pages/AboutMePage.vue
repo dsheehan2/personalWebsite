@@ -10,6 +10,9 @@
     <div class="card-container">
       <ExperienceCard />
     </div>
+    <div class="card-container">
+      <VolunteerCard />
+    </div>
   </div>
 </template>
 
@@ -18,6 +21,7 @@ import BusinessCard from 'src/components/BusinessCard.vue';
 import AboutMeCard from 'src/components/AboutMeCard.vue';
 import EducationCard from 'src/components/EducationCard.vue';
 import ExperienceCard from 'src/components/ExperienceCard.vue';
+import VolunteerCard from 'src/components/VolunteerCard.vue';
 </script>
 
 <style scoped>
