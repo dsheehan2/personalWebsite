@@ -12,6 +12,7 @@
     </div>
     <div class="card-container">
       <VolunteerCard />
+      <SkillCard style="margin-top: 20px" />
     </div>
   </div>
 </template>
@@ -22,6 +23,7 @@ import AboutMeCard from 'src/components/AboutMeCard.vue';
 import EducationCard from 'src/components/EducationCard.vue';
 import ExperienceCard from 'src/components/ExperienceCard.vue';
 import VolunteerCard from 'src/components/VolunteerCard.vue';
+import SkillCard from 'src/components/SkillCard.vue';
 </script>
 
 <style scoped>

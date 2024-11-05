@@ -85,8 +85,8 @@ const schools: Volunteer[] = [
 
 .Volunteer-icon {
   flex-shrink: 0;
-  width: 70px;
-  height: 70px;
+  width: 90px;
+  height: 90px;
   display: flex;
   align-items: center;
   justify-content: center;

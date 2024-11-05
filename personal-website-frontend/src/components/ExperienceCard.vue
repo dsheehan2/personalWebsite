@@ -89,8 +89,8 @@ const schools: Work[] = [
 
 .Work-icon {
   flex-shrink: 0;
-  width: 70px;
-  height: 70px;
+  width: 85px;
+  height: 85px;
   display: flex;
   align-items: center;
   justify-content: center;
