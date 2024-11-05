@@ -4,7 +4,7 @@
       <q-card-section horizontal>
         <q-card-section class="q-pt-xs" style="width: 40%">
           <div class="text-overline">Stay in Touch!</div>
-          <div class="text-h5 q-mt-sm q-mb-xs">Dylan Sheehan</div>
+          <div class="text-h6 q-mt-sm q-mb-xs">Dylan Sheehan</div>
           <q-img class="rounded-borders" src="../assets/card-photo.png" />
         </q-card-section>
 
@@ -112,7 +112,7 @@ function copyText(text: string) {
 
 <style lang="css">
 .business-card {
-  width: 70%;
+  width: 100%;
   max-width: 50em;
 }
 .button-card {
