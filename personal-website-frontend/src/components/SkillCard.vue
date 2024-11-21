@@ -1,8 +1,8 @@
 <template>
-  <q-card>
-    <q-card-section class="text-h5 text-center">
+  <q-card flat bordered>
+    <q-card-title class="text-h5 header" style="margin-top: 5px">
       Active Tech Stack
-    </q-card-section>
+    </q-card-title>
 
     <q-card-section class="skills-logos">
       <div
@@ -42,6 +42,11 @@ const skills = [
 </script>
 
 <style scoped>
+.header {
+  display: flex;
+  justify-content: center;
+}
+
 .skills-logos {
   display: flex;
   flex-wrap: wrap;
