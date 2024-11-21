@@ -1,5 +1,5 @@
 <template>
-  <q-card>
+  <q-card flat bordered>
     <q-card-title class="text-h5 header" style="margin-top: 5px"
       >Work Experience</q-card-title
     >

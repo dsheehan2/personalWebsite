@@ -1,5 +1,5 @@
 <template>
-  <q-card>
+  <q-card flat bordered>
     <q-card-title class="text-h5 header" style="margin-top: 5px"
       >Volunteer Activities</q-card-title
     >
@@ -22,6 +22,7 @@
             v-if="Volunteer.link"
             :href="'https://www.youtube.com/watch?v=jgyEZ2DbkNg'"
             rel="noopener noreferrer"
+            target="_blank"
           >
             See My Impact
           </a>

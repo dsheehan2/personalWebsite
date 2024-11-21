@@ -46,6 +46,8 @@
                 flat
                 round
                 size="0.75em"
+                rel="noopener noreferrer"
+                target="_blank"
               >
                 <img
                   style="height: 3em"
@@ -59,6 +61,8 @@
                 flat
                 round
                 size="0.75em"
+                rel="noopener noreferrer"
+                target="_blank"
               >
                 <img
                   style="height: 3em"
@@ -72,6 +76,8 @@
                 flat
                 round
                 size="0.75em"
+                rel="noopener noreferrer"
+                target="_blank"
               >
                 <img
                   style="height: 3em"
@@ -85,6 +91,8 @@
                 flat
                 round
                 size="0.75em"
+                rel="noopener noreferrer"
+                target="_blank"
               >
                 <img
                   style="height: 3em"

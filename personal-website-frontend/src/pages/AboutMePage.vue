@@ -1,19 +1,15 @@
 <template>
   <div class="about-me-page">
     <div class="card-container">
-      <BusinessCard />
-      <EducationCard style="margin-top: 20px" />
+      <BusinessCard style="margin-top: 20px" />
+      <EducationCard class="card-space" />
+      <ExperienceCard class="card-space" />
     </div>
     <div class="card-container">
-      <AboutMeCard />
-    </div>
-    <div class="card-container">
-      <ExperienceCard />
-    </div>
-    <div class="card-container">
-      <VolunteerCard />
-      <SkillCard style="margin-top: 20px" />
-      <HighlightsCard style="margin-top: 20px" />
+      <AboutMeCard style="margin-top: 20px" />
+      <VolunteerCard class="card-space" />
+      <SkillCard class="card-space" />
+      <HighlightsCard class="card-space" />
     </div>
   </div>
 </template>
@@ -44,9 +40,13 @@ import HighlightsCard from 'src/components/HighlightsCard.vue';
   flex-direction: column;
   width: calc(50% - 20px);
   max-width: 500px;
-  margin: 20px;
+  margin: 0 20px 20px 20px;
   box-sizing: border-box;
   flex: 1 0 auto;
+}
+
+.card-space {
+  margin-top: 40px;
 }
 
 @media (max-width: 1000px) {

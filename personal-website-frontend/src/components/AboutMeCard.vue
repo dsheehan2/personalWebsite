@@ -1,8 +1,8 @@
 <template>
-  <q-card class="about-me-card">
+  <q-card flat bordered>
     <q-card-section>
       <q-card-title class="text-h5 header">About Me</q-card-title>
-      <p>
+      <p class="info">
         Hello I am Dylan! I hold a bachelor's degree in computer science and am
         currently pursuing my master's degree while working in the Department of
         Defense (DoD). As a software developer, I have a strong focus on
@@ -19,7 +19,7 @@
 
     <q-card-section>
       <q-card-title class="text-h5 header">Career Goals</q-card-title>
-      <p>
+      <p class="info">
         I believe hard work and dedication are crucial for success, and I take
         pride in my ability to complete tasks with high quality. While I'm still
         developing my leadership skills, I’m eager to learn and grow in that
@@ -34,7 +34,7 @@
 
     <q-card-section>
       <q-card-title class="text-h5 header">Hobbies</q-card-title>
-      <p>
+      <p class="info">
         When I’m not coding, you can find me enjoying outdoor activities like
         golf, fishing, and playing soccer. These hobbies help me unwind and keep
         things light. I think it's important to have fun while working hard, and
@@ -46,13 +46,13 @@
 </template>
 
 <style scoped>
-.about-me-card {
-  max-width: 600px;
-  padding: 16px;
-}
 .header {
   display: flex;
   justify-content: center;
   margin-bottom: 5px;
+}
+
+.info {
+  font-size: 0.85em;
 }
 </style>
