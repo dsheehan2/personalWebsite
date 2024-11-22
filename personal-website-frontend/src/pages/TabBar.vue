@@ -30,7 +30,7 @@
 </template>
 
 <script lang="ts" setup>
-import { ref, computed } from 'vue';
+import { ref, computed, onMounted } from 'vue';
 import { Dark } from 'quasar';
 import AboutMePage from './AboutMePage.vue';
 import ProjectsPage from './ProjectsPage.vue';
@@ -45,8 +45,18 @@ const tabs = {
 const activeTab = ref<keyof typeof tabs>('about');
 const currentTabComponent = computed(() => tabs[activeTab.value]);
 
-function toggleDarkMode() {
+onMounted(() => {
+  const darkMode = localStorage.getItem('darkMode');
+  if (darkMode === 'true') {
+    Dark.set(true);
+  } else {
+    Dark.set(false);
+  }
+});
+
+function toggleDarkMode(): void {
   Dark.toggle();
+  localStorage.setItem('darkMode', Dark.isActive ? 'true' : 'false');
 }
 </script>
 
@@ -65,8 +75,9 @@ function toggleDarkMode() {
 }
 
 .dark-mode-toggle {
-  margin-left: auto;
+  margin-left: 10px;
   color: primary;
+  font-size: 12px;
 }
 
 .q-tab {
