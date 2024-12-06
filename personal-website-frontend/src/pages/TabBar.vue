@@ -9,7 +9,7 @@
         indicator-color="primary"
       >
         <q-tab name="about" label="About Me" />
-        <q-tab name="projects" label="Projects" />
+        <q-tab name="projects" label="Showcase" />
         <q-tab name="experiences" label="Experiences" />
 
         <q-btn
