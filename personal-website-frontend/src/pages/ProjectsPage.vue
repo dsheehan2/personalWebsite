@@ -54,6 +54,6 @@ h2 {
   gap: 16px;
   flex-wrap: wrap;
   justify-content: flex-start;
-  align-items: center;
+  align-items: flex-start;
 }
 </style>
